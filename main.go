@@ -37,7 +37,7 @@ func main() {
 	http.HandleFunc("/hello", helloHandler)
 
 	fmt.Println("server at 8080")
-	if err := http.ListenAndServe(":9090", nil); err != nil {
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		fmt.Println(err)
 	}
 }

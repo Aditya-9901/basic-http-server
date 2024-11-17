@@ -9,4 +9,4 @@ COPY . .
 
 CMD ["go", "run", "main.go"]
 
-EXPOSE 9090
+EXPOSE 8080
